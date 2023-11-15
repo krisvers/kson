@@ -1,6 +1,11 @@
 #ifndef KRISVERS_KSON_H
 #define KRISVERS_KSON_H
 
+#define KSON_VER_MAJOR 0
+#define KSON_VER_MINOR 1
+#define KSON_VER_PATCH 0
+#define KSON_VER KSON_VER_MAJOR##_##KSON_VER_MINOR##_##KSON_VER_PATCH
+
 typedef enum kson_type {
 	KSON_TYPE_UNDEFINED = 0,
 	KSON_TYPE_NUMBER,
