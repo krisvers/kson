@@ -1,0 +1,20 @@
+{
+	"ted": {
+		"age": 9,
+		"adult": false,
+		"holding": {
+			"name": "bottle",
+			"edible": true
+		},
+		"friends": [ "john", "lucy" ]
+	},
+	"john": {
+		"age": 23,
+		"adult": false,
+		"holding": {
+			"name": "apple",
+			"edible": true
+		},
+		"friends": [ "ted", "mark", "lucy" ]
+	}
+}
